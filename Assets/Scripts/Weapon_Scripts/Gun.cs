@@ -32,6 +32,6 @@ public class Gun : MonoBehaviour
     {
        GameObject bullet = Instantiate(bulletPrefab,bulletPos.transform.position,transform.rotation);
        bullet.GetComponent<Rigidbody>().AddForce(transform.forward * bulletSpeed);
-       Destroy(bullet,1);
+       Destroy(bullet,3);
     }
 }
