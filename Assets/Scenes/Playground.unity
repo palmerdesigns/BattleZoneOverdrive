@@ -300,6 +300,37 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &540327002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 540327003}
+  m_Layer: 0
+  m_Name: BulletPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &540327003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540327002}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.01, y: 3.261, z: 14.118}
+  m_LocalScale: {x: 10.802743, y: 10.802743, z: 10.802743}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1445791184}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &542508511
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,32 +411,32 @@ PrefabInstance:
     - target: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.092569076
+      value: 0.055749726
       objectReference: {fileID: 0}
     - target: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.092569076
+      value: 0.055749726
       objectReference: {fileID: 0}
     - target: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.092569076
+      value: 0.055749726
       objectReference: {fileID: 0}
     - target: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.11
+      value: 0.104
       objectReference: {fileID: 0}
     - target: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.745
+      value: -0.571
       objectReference: {fileID: 0}
     - target: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.75
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
         type: 3}
@@ -870,6 +901,34 @@ Transform:
   m_Father: {fileID: 2114283753834967213}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1445791183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6612852289055200571, guid: c4534478701821a4693b524cac1c7e67,
+    type: 3}
+  m_PrefabInstance: {fileID: 678350529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1445791184 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5804650303138811777, guid: c4534478701821a4693b524cac1c7e67,
+    type: 3}
+  m_PrefabInstance: {fileID: 678350529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1445791185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445791183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea1ef60f4ba6d8448e989f8ebfd7da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5672227458432247432, guid: 50a646c42b2ad9142bf1a2ed12e88139,
+    type: 3}
+  bulletPos: {fileID: 540327002}
+  bulletSpeed: 2500
 --- !u!1 &1503552599
 GameObject:
   m_ObjectHideFlags: 0
@@ -4109,6 +4168,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5420857361349278248, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      propertyPath: shoot
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5420857361349278248, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: analogMovement
