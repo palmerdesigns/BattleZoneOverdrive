@@ -250,7 +250,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28638
+  m_Name: pb_Mesh28766
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 577963307}
   - component: {fileID: 577963306}
   m_Layer: 6
-  m_Name: Cube
+  m_Name: Keypad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f457701343ba74d8cae2a5f97ee440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  promptMessage: KookooJaka
+  promptMessage: HitBox
 --- !u!65 &577963307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1682,8 +1682,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ff188f58422043f489060e28a5e4e0c0, type: 2}
-  - {fileID: 2100000, guid: ff188f58422043f489060e28a5e4e0c0, type: 2}
+  - {fileID: 2100000, guid: d233563daeca041758687690362d088e, type: 2}
+  - {fileID: 2100000, guid: 9e3e4a519567d4bf38cd337822584c5d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
